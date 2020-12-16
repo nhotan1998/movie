@@ -1,0 +1,83 @@
+@media(min-width: 1366px){
+
+}
+@media(min-width:1200px) and (max-width:1365){
+
+}
+@media(min-width:992px) and (max-width:1199){
+
+}
+@media(min-width:768px) and (max-width:992){
+    
+}
+@media(min-width:480px) and (max-width:767){
+  
+}
+@media only screen and (min-width:240px) and (max-width:480px){
+    #form-search {
+        margin-top: 0;
+    }
+    .col-left #slider .item img{
+        width:100%;
+        height: 190px;
+        padding-left: 0;
+        margin-left: 0;
+    }
+    #form-search #search{
+        font-size: 12px;
+    }
+    #form-search #submit {
+        padding-top: 3px;
+    padding-bottom: 4px;
+    border-left: 1px solid #AAAAAA;
+    }
+    .owl-carousel .owl-stage-outer {
+        height: 225px;
+        position: relative;
+        overflow: hidden;
+      }
+      .film-hot .main-film img{
+          height:220px;
+          background-position: center center;
+        background-size: cover; 
+      }
+      .content-fcr .main-film {
+        width: 157px;
+        height: 280px;
+    }
+    .title-list span {
+        text-transform: uppercase;
+        font-size: 20px;
+        color: rgb(243, 49, 0);
+        font-family: roboto;
+        font-weight: bold;
+        text-shadow: 1px 1px 1px #1a1a1a;
+        display: inline-block;
+        font: 20px/40px 'UTMCafetaRegular';
+      
+    }
+    .title-list .more-list-index {
+        float: right;
+        padding: 16px 12px 0px 0px;
+        color: #222222;
+        font-size: 12px;
+        text-decoration: none;
+        
+    }
+    .title-list #title-list-r {
+        float: right;
+        padding: 29px 12px 0px 0px;
+        color: #222222;
+        font-size: 12px;
+        text-decoration: none;
+        
+    }
+    .title-list #title-list-hh {
+        float: right;
+        padding: 0px 12px 8px 0px;
+        color: #222222;
+        font-size: 12px;
+        text-decoration: none;
+        
+    }
+}

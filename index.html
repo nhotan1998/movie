@@ -1,0 +1,1225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Web display</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link type=" text/css" rel="stylesheet" href="css/reponsive.css" />
+    <link rel="stylesheet" href="libs/awefonts/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="libs/OwlCarousel2-2.3.4/assets/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="libs/OwlCarousel2-2.3.4/assets/owl.carousel.min.css" />
+
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-4 col-xs-12 logo">
+                    <a href="#"><img style='width:260px;margin-top: -12px;' src="images/logo.png" /></a>
+                </div>
+                <div class="col-md-5 col-sm-5 col-xs-12">
+                    <form id='form-search'>
+                        <input type="text" placeholder="Tìm: tên phim, đạo diễn, diễn viên" id='search' />
+                        <button id='submit'> <i class="fa fa-search"></i> </button>
+                    </form>
+                </div>
+                <div class="col-md-3 col-sm-3 hidden-xs">
+                    <div class="wiget-user">
+                        <div class="col-sm-6 col-md-6">
+                            <a href="#" id='login'><i class="fa fa-sign-in"></i> Đăng Nhập </a>
+                        </div>
+                        <div class="col-sm-6 col-md-6">
+                            <a href="#" id='sign-up'><i class="fa fa-sign-out"></i> Đăng Kí </a>
+                        </div>
+                    </div>
+                </div>
+                <!--Tren mobile-->
+                <div class="hidden-lg hidden-sm hidden-md col-xs-12 mobile">
+                    <a class="menumobile pull-right" href="#" id="btnmenu"><i class="fa fa-bars"
+                            style='color: #333333;position: absolute;top: -24px; right: 21px;'></i></a>
+
+                    <div class="item_menu" id="menutop">
+                        <div class="wiget-user1" style='margin-top: 14px;'>
+                            <div class="col-sm-6 col-md-6 col-xs-6">
+                                <a href="#" id='login' style='padding: 27px;'><i class="fa fa-sign-in"></i> Đăng Nhập
+                                </a>
+                            </div>
+                            <div class="col-sm-6 col-md-6 col-xs-6">
+                                <a href="#" id='sign-up'><i class="fa fa-sign-out"></i> Đăng Kí </a>
+                            </div>
+                        </div>
+                        <ul id="mega-menu-1">
+
+                            <li> <a href="#"> Home </a> </li>
+                            <li> <a href="#"> Thể loại </a></li>
+                            <li> <a href="#"> Quốc Gia </a></li>
+
+                            <li> <a href="#"> phim lẻ </a></li>
+                            <li> <a href="#"> Phim bộ </a></li>
+
+                            <li> <a href="#"> diễn viên </a></li>
+                            <li> <a href="#"> Yêu cầu </a></li>
+                            <li> <a href="#"> Rss </a></li>
+                            <li> <a href="#"> Xem phim mới </a></li>
+                            <li> <a href="#"> Phim chiếu rạp </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <nav style="background:#080808; top:0px;" id='main-menu'>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-lg-12 hidden-xs">
+                    <div class="menu">
+                        <ul id="mega-menu-1">
+
+                            <li> <a href="#"> Home </a> </li>
+                            <li> <a href="#"> Thể loại </a></li>
+                            <li> <a href="#"> Quốc Gia </a></li>
+                            <li> <a href="#"> Xem phim mới </a></li>
+                            <li> <a href="#"> phim lẻ </a></li>
+                            <li> <a href="#"> Phim bộ </a></li>
+                            <li> <a href="#"> Phim chiếu rạp </a></li>
+                            <li> <a href="#"> diễn viên </a></li>
+                            <li> <a href="#"> Yêu cầu </a></li>
+                            <li> <a href="#"> Rss </a></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="margin-bottom" style="margin-bottom: 30px"></div>
+    <wrapper>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-8 col-xs-12">
+                    <div class="col-left">
+                        <div class="owl-carousel owl-theme" id="slider">
+                            <div class="item">
+                                <img src="images/slide0.jpg" alt="" />
+                            </div>
+                            <div class="item">
+                                <img src="images/slider2.jpg" alt="" />
+                            </div>
+                            <div class="item">
+                                <img src="images/slide9.jpg" alt="" />
+                            </div>
+                            <div class="item">
+                                <img src="images/bo_10.jpg" alt="" />
+                            </div>
+                            <div class="item">
+                                <img src="images/slide8.jpg" alt="" />
+                            </div>
+                            <div class="item">
+                                <img src="images/slide7.jpg" alt="" />
+                            </div>
+                        </div>
+
+
+                        <div class='col-12'>
+                            <div class="title-list">
+                                <span style='font-size:28px'> Phim Đáng Chú Ý </span>
+                            </div>
+                        </div>
+                        <div class="margin-bottom" style="margin-bottom: 20px"></div>
+                        <div class="owl-carousel owl-theme" id="slider-film">
+                            <div class='film-hot'>
+                                <div class='main-film'>
+                                    <a href='#'><img src='images/anh_f1.jpg' alt='Thiếu Lâm Tàng Kinh Các'
+                                            class="img-responsive" width="225" height="100%" /></a>
+                                    <div class="introduce-fim">
+                                        <h3 class="title-film"> Thiếu Lâm Tàng Kinh Các </h3>
+                                        <h4 class="content-film"> A Legend Of Shaolin </h4>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class='film-hot'>
+                                <div class='main-film'>
+                                    <a href='#'><img src='images/anh_f2.jpg' alt='Thiếu Lâm Tàng Kinh Các'
+                                            class="img-responsive" width="225" height="248px" /></a>
+                                    <div class="introduce-fim">
+                                        <h3 class="title-film"> Cô Bé Người Gỗ</h3>
+                                        <h4 class="content-film">Pinocchio </h4>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class='film-hot'>
+                                <div class='main-film'>
+                                    <a href='#'><img src='images/anh_f3.jpg' alt='Thiếu Lâm Tàng Kinh Các'
+                                            class="img-responsive" width="225" height="100%" /></a>
+                                    <div class="introduce-fim">
+                                        <h3 class="title-film"> Cứu Thế </h3>
+                                        <h4 class="content-film"> Healer </h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class='film-hot'>
+                                <div class='main-film'>
+                                    <a href='#'><img src='images/anh_f4.jpg' alt='Thiếu Lâm Tàng Kinh Các'
+                                            class="img-responsive" width="225" height="100%" /></a>
+                                    <div class="introduce-fim">
+                                        <h3 class="title-film"> Tân Thần Điêu Đại Hiệp </h3>
+                                        <h4 class="content-film">The Condor Heroes </h4>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class='film-hot'>
+                                <div class='main-film'>
+                                    <a href='#'><img src='images/anh_f5.jpg' alt='Thiếu Lâm Tàng Kinh Các'
+                                            class="img-responsive" width="225" height="100%" /></a>
+                                    <div class="introduce-fim">
+                                        <h3 class="title-film"> Điều Cơ Bản Phần 3 </h3>
+                                        <h4 class="content-film"> Elementary Season 3 </h4>
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+                            <div class='film-hot'>
+                                <div class='main-film'>
+                                    <a href='#'><img src='images/anh_f6.jpg' alt='Thiếu Lâm Tàng Kinh Các'
+                                            class="img-responsive" width="225" height="100%" /></a>
+                                    <div class="introduce-fim">
+                                        <h3 class="title-film"> Người Hùng Tia Chớp: Phần 1 </h3>
+                                        <h4 class="content-film"> The Flash Season 1 </h4>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class='col-12'>
+                            <div class="title-list">
+                                <span> Phim Chiếu Rạp </span>
+                                <a class="more-list-index" id='title-list-r' href="#"
+                                    title="Phim đang chiếu rạp mới cập nhật">
+                                    Xem tất cả
+                                </a>
+                            </div>
+                        </div>
+                        <div class="margin-bottom" style="margin-bottom: 20px"></div>
+                        <div class="film-cr">
+                            <ul style="display: inline-block">
+                                <li class="content-fcr">
+                                    <div class='main-film'>
+                                        <a href='#'><img src='images/cr1.jpg' alt='Thiếu Lâm Tàng Kinh Các'
+                                                class="img-responsive" width="236" height="100%" /></a>
+                                        <div class="envelop-ct">
+                                            <h3 class="title-film"> Người Hobbit 3: Đại Chiến 5 Cánh Quân </h3>
+                                            <h4 class="content-film"> The Hobbit 3: The Battle Of The Five Armies </h4>
+
+                                        </div>
+
+                                    </div>
+                                </li>
+                                <li class="content-fcr">
+                                    <div class='main-film'>
+                                        <a href='#'><img src='images/cr2.jpg' alt='Thiếu Lâm Tàng Kinh Các'
+                                                class="img-responsive" /></a>
+
+                                        <div class="envelop-ct">
+                                            <h3 class="title-film"> Trang Điểm Xác Chết </h3>
+                                            <h4 class="content-film"> Exequy Dresser </h4>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="content-fcr">
+                                    <div class='main-film'>
+                                        <a href='#'><img src='images/cr3.jpg' alt='Thiếu Lâm Tàng Kinh Các'
+                                                class="img-responsive" /></a>
+                                        <div class="envelop-ct">
+                                            <h3 class="title-film"> John Wick: Mạng Đổi Mạng </h3>
+                                            <h4 class="content-film"> John Wick </h4>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="content-fcr" style="margin-right: 0">
+                                    <div class='main-film'>
+                                        <a href='#'><img src='images/cr4.jpg' alt='Thiếu Lâm Tàng Kinh Các'
+                                                class="img-responsive" /></a>
+                                        <div class="envelop-ct">
+                                            <h3 class="title-film">Bí Ẩn Tại Hồ Bơi </h3>
+                                            <h4 class="content-film"> The Swimmers </h4>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="content-fcr">
+                                    <div class='main-film'>
+                                        <a href='#'><img src='images/cr5.jpg' alt='Thiếu Lâm Tàng Kinh Các'
+                                                class="img-responsive" /></a>
+                                        <div class="envelop-ct">
+                                            <h3 class="title-film"> Hội Quái Hộp </h3>
+                                            <h4 class="content-film"> The Boxtrolls </h4>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="content-fcr">
+                                    <div class='main-film'>
+                                        <a href='#'><img src='images/cr6.jpg' alt='Thiếu Lâm Tàng Kinh Các'
+                                                class="img-responsive" /></a>
+                                        <div class="envelop-ct">
+                                            <h3 class="title-film"> Biệt Đội Big Hero 6 </h3>
+                                            <h4 class="content-film"> Big Hero 6 </h4>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="content-fcr">
+                                    <div class='main-film'>
+                                        <a href='#'><img src='images/cr7.jpg' alt='Thiếu Lâm Tàng Kinh Các'
+                                                class="img-responsive" /></a>
+                                        <div class="envelop-ct">
+                                            <h3 class="title-film"> Giải Mã Mê Cung </h3>
+                                            <h4 class="content-film"> The Maze Runner (2014) Vietsub </h4>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="content-fcr" style="margin-right: 0">
+                                    <div class='main-film'>
+                                        <a href='#'><img src='images/cr8.jpg' alt='Thiếu Lâm Tàng Kinh Các'
+                                                class="img-responsive" /></a>
+                                        <div class="envelop-ct">
+                                            <h3 class="title-film"> TẦN SỐ CHẾT</h3>
+                                            <h4 class="content-film"> 0.0MHz (2019) </h4>
+                                        </div>
+                                    </div>
+                                </li>
+
+                            </ul>
+                        </div>
+
+
+                        <div class='col-12'>
+                            <div class="title-list">
+                                <span style='margin-top:0px'> Phim Lẻ Mới Cập Nhật </span>
+                                <a class="more-list-index" href="#" title="Phim đang chiếu rạp mới cập nhật">
+                                    Xem tất cả
+                                </a>
+                            </div>
+                        </div>
+                        <div class="margin-bottom" style="margin-bottom: 20px"></div>
+                        <div class="film-cr">
+                            <ul style="display: inline-block">
+                                <li class="content-fcr">
+                                    <div class='main-film'>
+                                        <a href='#'><img src='images/le1.jpg' alt='Thiếu Lâm Tàng Kinh Các'
+                                                class="img-responsive" width="236" height="100%" /></a>
+                                        <div class="envelop-ct">
+                                            <h3 class="title-film"> Đường Hầm Tội Ác</h3>
+                                            <h4 class="content-film"> At The End Of The Tunnel (2016) </h4>
+                                        </div>
+
+                                    </div>
+                                </li>
+                                <li class="content-fcr">
+                                    <div class='main-film'>
+                                        <a href='#'><img src='images/le2.jpg' alt='Thiếu Lâm Tàng Kinh Các'
+                                                class="img-responsive" /></a>
+                                        <div class="envelop-ct">
+                                            <h3 class="title-film"> Bí Mật Nàng Fangirl </h3>
+                                            <h4 class="content-film"> Her Private Life (2019) </h4>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="content-fcr">
+                                    <div class='main-film'>
+                                        <a href='#'><img src='images/le3.jpg' alt='Thiếu Lâm Tàng Kinh Các'
+                                                class="img-responsive" /></a>
+                                        <div class="envelop-ct">
+                                            <h3 class="title-film"> Sát Thủ Thợ Máy 1 </h3>
+                                            <h4 class="content-film"> The Mechanic (2011) </h4>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="content-fcr" style="margin-right: 0">
+                                    <div class='main-film'>
+                                        <a href='#'><img src='images/le4.jpg' alt='Thiếu Lâm Tàng Kinh Các'
+                                                class="img-responsive" /></a>
+                                        <div class="envelop-ct">
+                                            <h3 class="title-film"> Sát Thủ Thợ Máy 2 </h3>
+                                            <h4 class="content-film"> The Mechanic 2: Resurrection (2016) </h4>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="content-fcr">
+                                    <div class='main-film'>
+                                        <a href='#'><img src='images/le5.jpg' alt='Thiếu Lâm Tàng Kinh Các'
+                                                class="img-responsive" /></a>
+                                        <div class="envelop-ct">
+                                            <h3 class="title-film"> Quá Nhanh Quá Nguy Hiểm 8 </h3>
+                                            <h4 class="content-film"> Fast And Furious 8: The Fate Of The Furious (2017)
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="content-fcr">
+                                    <div class='main-film'>
+                                        <a href='#'><img src='images/le6.jpg' alt='Thiếu Lâm Tàng Kinh Các'
+                                                class="img-responsive" /></a>
+                                        <div class="envelop-ct">
+                                            <h3 class="title-film"> Biển Sâu Dậy Sóng </h3>
+                                            <h4 class="content-film"> In The Heart Of The Sea (2015) </h4>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="content-fcr">
+                                    <div class='main-film'>
+                                        <a href='#'><img src='images/le7.jpg' alt='Thiếu Lâm Tàng Kinh Các'
+                                                class="img-responsive" /></a>
+                                        <div class="envelop-ct">
+                                            <h3 class="title-film"> Quỷ Đỏ 3 </h3>
+                                            <h4 class="content-film"> Hellboy 3 (2019) </h4>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="content-fcr" style="margin-right: 0">
+                                    <div class='main-film'>
+                                        <a href='#'><img src='images/le8.jpg' alt='Thiếu Lâm Tàng Kinh Các'
+                                                class="img-responsive" /></a>
+                                        <div class="envelop-ct">
+                                            <h3 class="title-film"> Người Bảo Vệ 2 </h3>
+                                            <h4 class="content-film"> The Protector 2: Tom Yum Goong (2013) </h4>
+                                        </div>
+                                    </div>
+                                </li>
+
+                            </ul>
+                        </div>
+
+
+                        <div class='col-12'>
+                            <div class="title-list">
+                                <span style='margin-top:0px'> Phim Bộ Mới Cập Nhật </span>
+                                <a class="more-list-index" href="#" title="Phim đang chiếu rạp mới cập nhật">
+                                    Xem tất cả
+                                </a>
+                            </div>
+                        </div>
+                        <div class="margin-bottom" style="margin-bottom: 20px"></div>
+                        <div class="film-cr">
+                            <ul style="display: inline-block">
+                                <li class="content-fcr">
+                                    <div class='main-film'>
+                                        <a href='#'><img src='images/bo1.jpg' alt='Thiếu Lâm Tàng Kinh Các'
+                                                class="img-responsive" width="236" height="100%" /></a>
+                                        <div class="envelop-ct">
+                                            <h3 class="title-film"> Dòng Máu Kiêu Hãnh - Luead </h3>
+                                            <h4 class="content-film"> Luead Rak Torranong </h4>
+                                        </div>
+
+                                    </div>
+                                </li>
+                                <li class="content-fcr">
+                                    <div class='main-film'>
+                                        <a href='#'><img src='images/bo2.jpg' alt='Thiếu Lâm Tàng Kinh Các'
+                                                class="img-responsive" /></a>
+                                        <div class="envelop-ct">
+                                            <h3 class="title-film"> Hậu Duệ Mặt Trời </h3>
+                                            <h4 class="content-film"> Descendants of the Sun </h4>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="content-fcr">
+                                    <div class='main-film'>
+                                        <a href='#'><img src='images/bo3.jpg' alt='Thiếu Lâm Tàng Kinh Các'
+                                                class="img-responsive" /></a>
+                                        <div class="envelop-ct">
+                                            <h3 class="title-film"> Cưa Đổ Nàng Ác Ma </h3>
+                                            <h4 class="content-film"> Yuttakarn Prab Nang Marn (2018) </h4>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="content-fcr" style="margin-right: 0">
+                                    <div class='main-film'>
+                                        <a href='#'><img src='images/bo4.jpg' alt='Thiếu Lâm Tàng Kinh Các'
+                                                class="img-responsive" /></a>
+                                        <div class="envelop-ct">
+                                            <h3 class="title-film"> Yuttakarn Prab Nang Marn (2018) </h3>
+                                            <h4 class="content-film"> .... </h4>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="content-fcr">
+                                    <div class='main-film'>
+                                        <a href='#'><img src='images/bo5.jpg' alt='Thiếu Lâm Tàng Kinh Các'
+                                                class="img-responsive" /></a>
+                                        <div class="envelop-ct">
+                                            <h3 class="title-film"> Cô Dâu Bất Đắc Dĩ </h3>
+                                            <h4 class="content-film"> .... </h4>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="content-fcr">
+                                    <div class='main-film'>
+                                        <a href='#'><img src='images/bo6.jpg' alt='Thiếu Lâm Tàng Kinh Các'
+                                                class="img-responsive" /></a>
+                                        <div class="envelop-ct">
+                                            <h3 class="title-film"> Trò Chơi Tình Ái </h3>
+                                            <h4 class="content-film"> Game of Love </h4>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="content-fcr">
+                                    <div class='main-film'>
+                                        <a href='#'><img src='images/bo7.jpg' alt='Thiếu Lâm Tàng Kinh Các'
+                                                class="img-responsive" /></a>
+                                        <div class="envelop-ct">
+                                            <h3 class="title-film"> Một Mảnh Đất Một Bầu Trời </h3>
+                                            <h4 class="content-film"> .... </h4>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="content-fcr" style="margin-right: 0">
+                                    <div class='main-film'>
+                                        <a href='#'><img src='images/bo8.jpg' alt='Thiếu Lâm Tàng Kinh Các'
+                                                class="img-responsive" /></a>
+                                        <div class="envelop-ct">
+                                            <h3 class="title-film"> Thính Tuyết Lâu </h3>
+                                            <h4 class="content-film"> Listening Snow Tower (2019) </h4>
+                                        </div>
+                                    </div>
+                                </li>
+
+                            </ul>
+                        </div>
+
+
+
+
+
+                        <div class='col-12'>
+                            <div class="title-list">
+                                <span style='margin-top:0px'> Phim Hoạt Hình Mới Cập Nhật </span>
+                                <a class="more-list-index" id='title-list-hh' href="#"
+                                    title="Phim đang chiếu rạp mới cập nhật">
+                                    Xem tất cả
+                                </a>
+                            </div>
+                        </div>
+                        <div class="margin-bottom" style="margin-bottom: 20px"></div>
+
+                        <div class="film-cr">
+                            <ul style="display: inline-block">
+                                <li class="content-fcr">
+                                    <div class='main-film'>
+                                        <a href='#'><img src='images/hh1.jpg' alt='Thiếu Lâm Tàng Kinh Các'
+                                                class="img-responsive" width="236" height="100%" /></a>
+                                        <div class="envelop-ct">
+                                            <h3 class="title-film"> Đảo Hải Tặc (one Piece) </h3>
+                                            <h4 class="content-film"> Vua Hải Tặc (1999) </h4>
+                                        </div>
+
+                                    </div>
+                                </li>
+                                <li class="content-fcr">
+                                    <div class='main-film'>
+                                        <a href='#'><img src='images/hh2.jpg' alt='Thiếu Lâm Tàng Kinh Các'
+                                                class="img-responsive" /></a>
+                                        <div class="envelop-ct">
+                                            <h3 class="title-film"> Tình Yêu Ngang Trái </h3>
+                                            <h4 class="content-film"> Diabolik Lovers </h4>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="content-fcr">
+                                    <div class='main-film'>
+                                        <a href='#'><img src='images/hh3.jpg' alt='Thiếu Lâm Tàng Kinh Các'
+                                                class="img-responsive" /></a>
+                                        <div class="envelop-ct">
+                                            <h3 class="title-film"> Thám Tử Lừng Danh Conan </h3>
+                                            <h4 class="content-film"> Detective Conan </h4>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="content-fcr" style="margin-right: 0">
+                                    <div class='main-film'>
+                                        <a href='#'><img src='images/hh4.jpg' alt='Thiếu Lâm Tàng Kinh Các'
+                                                class="img-responsive" /></a>
+                                        <div class="envelop-ct">
+                                            <h3 class="title-film">Naruto Phần 2 </h3>
+                                            <h4 class="content-film"> Naruto Shippuuden2 </h4>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="content-fcr">
+                                    <div class='main-film'>
+                                        <a href='#'><img src='images/hh5.jpg' alt='Thiếu Lâm Tàng Kinh Các'
+                                                class="img-responsive" /></a>
+                                        <div class="envelop-ct">
+                                            <h3 class="title-film"> Siêu Đạo Chích Kid ( New ) </h3>
+                                            <h4 class="content-film"> Magic Kaito 2014 </h4>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="content-fcr">
+                                    <div class='main-film'>
+                                        <a href='#'><img src='images/hh6.jpg' alt='Thiếu Lâm Tàng Kinh Các'
+                                                class="img-responsive" /></a>
+                                        <div class="envelop-ct">
+                                            <h3 class="title-film"> Câu Chuyện Đồ Chơi: Thời Gian Bị Lãng Quên </h3>
+                                            <h4 class="content-film"> Toy Story: That Time Forgot </h4>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="content-fcr">
+                                    <div class='main-film'>
+                                        <a href='#'><img src='images/hh7.jpg' alt='Thiếu Lâm Tàng Kinh Các'
+                                                class="img-responsive" /></a>
+                                        <div class="envelop-ct">
+                                            <h3 class="title-film"> Đảo Hải Tặc </h3>
+                                            <h4 class="content-film"> One Piece </h4>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="content-fcr" style="margin-right: 0">
+                                    <div class='main-film'>
+                                        <a href='#'><img src='images/hh8.jpg' alt='Thiếu Lâm Tàng Kinh Các'
+                                                class="img-responsive" /></a>
+                                        <div class="envelop-ct">
+                                            <h3 class="title-film">Thám Tử Conan Movie 19:hoa Hướng Dương Của Biển Lửa
+                                            </h3>
+                                            <h4 class="content-film"> Detective Conan Movie 19: Sunflowers Of Inferno
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </li>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-4 hidden-xs">
+                    <div class="col-right">
+
+                        <div class="qc-page">
+                            <iframe
+                                src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fconectkhophimhot%2F&amp;tabs&amp;width=300&amp;height=300&amp;small_header=false&amp;adapt_container_width=true&amp;hide_cover=false&amp;show_facepile=true&amp;appId=292376281648375"
+                                width="300" height="300" style="border:none;overflow:hidden" scrolling="no"
+                                frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+
+
+                        </div>
+                    </div>
+                    <div class="right-box" style='margin:-79px 0 0 -27px;'>
+                        <h2 class="right-box-header star-icon">
+                            <span><i class="fa fa-star" style='font-size:34px; padding-left: 33px;'></i>
+                                NHẬN XEM PHIM MỚI</span>
+                        </h2>
+                        <div class="right-box-content">
+                            <form style="border:0px solid #ccc;padding:0px;text-align:center;"
+                                action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow"
+                                onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=khophimhot/khophimhot', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
+                                <input type="text"
+                                    style="width:140px;border: 1px dashed #999;color:#09F; background-color:#1B1B1B"
+                                    name="email" value="Email của bạn"
+                                    onblur="if(this.value=='') this.value='Email của bạn';"
+                                    onfocus="if(this.value=='Email của bạn') this.value='';">
+                                <input type="hidden" value="khophimhot/khophimhot" name="uri">
+                                <input type="hidden" name="loc" value="en_US">
+                                <input type="submit" value="Xác nhận"
+                                    style="color: #99CCFF; border: 1px dotted #669999; background-color: #3B6F92">
+                                <br><img
+                                    src="http://feeds.feedburner.com/~fc/khophimhot/khophimhot?bg=99CCFF&amp;fg=444444&amp;anim=1"
+                                    height="26" width="88" alt="đăng ký nhận phim" style="border:0">
+                                <br><span style='font-size: 11px;color: #000000;padding-left: 27px;'>Vui lòng mở email
+                                    của bạn để kích hoạt tài khoản sau khi "Xác nhận".</span></form>
+                        </div>
+                    </div>
+                    <div class="right-box">
+                        <h2 class="right-box-header star-icon">
+                            <span style='padding-left: 7px'><i class="fa fa-star"
+                                    style='font-size:34px; padding-right: 5px'></i>Yêu Cầu Phim Mới</span>
+                        </h2>
+                        <div class="right-box-content">
+                            <div id="cboxdiv" style="position: relative; margin: 0 auto; width: 100%; font-size: 0;">
+                                <div
+                                    style="position: relative; height: 300px; overflow: auto; overflow-y: auto; -webkit-overflow-scrolling: touch; border:#000000 1px solid;">
+                                    <iframe src="http://www3.cbox.ws/box/?boxid=3432973&amp;boxtag=rwpqd7&amp;sec=main"
+                                        marginheight="0" marginwidth="0" frameborder="0" width="100%" height="100%"
+                                        scrolling="auto" allowtransparency="yes" name="cboxmain3-3432973"
+                                        id="cboxmain3-3432973"></iframe>
+                                </div>
+                                <div
+                                    style="position: relative; height: 75px; overflow: hidden; border:#000000 1px solid; border-top: 0px;">
+                                    <iframe src="http://www3.cbox.ws/box/?boxid=3432973&amp;boxtag=rwpqd7&amp;sec=form"
+                                        marginheight="0" marginwidth="0" frameborder="0" width="100%" height="100%"
+                                        scrolling="no" allowtransparency="yes" name="cboxform3-3432973"
+                                        id="cboxform3-3432973"></iframe>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="right-box top-film-week" style="margin-top: 40px;">
+                        <h2 class="right-box-header star-icon">
+                            <span> <i class="fa fa-star"
+                                    style='font-size: 30px;padding-left:12px;padding-right: 8px;'></i>Phim lẻ hot trong
+                                tuần</span>
+                        </h2>
+                        <div class="right-box-content">
+
+                            <ul class="list-top-movie" id="list-top-film-week"
+                                style="overflow-x: hidden; overflow-y: auto; width: auto; height: 477px;">
+
+                                <li class="list-top-movie-item">
+                                    <a class="list-top-movie-link" title="Biệt Đội Siêu Anh Hùng 4: Hồi Kết" href="#">
+                                        <div class="list-top-movie-item-thumb">
+                                            <img src="images/p-h1.jpg"
+                                                alt="Biệt Đội Siêu Anh Hùng 4: Hồi Kết - Avengers 4: Endgame"
+                                                style="width: 100%; height: 100%;" class="lazy">
+                                        </div>
+                                        <div class="list-top-movie-item-info">
+                                            <span class="list-top-movie-item-vn">Biệt Đội Siêu Anh Hùng 4: Hồi
+                                                Kết</span>
+                                            <span class="list-top-movie-item-en">Avengers 4: Endgame</span>
+                                            <span class="list-top-movie-item-view">Lượt xem: 0</span>
+                                            <span class="none1"></span>
+                                            <span class="none1"></span>
+                                            <span class="none1"></span>
+                                            <span class="none1"> </span>
+                                            <span class="none1"></span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="list-top-movie-item">
+                                    <a class="list-top-movie-link" title="Pokémon: Thám Tử Pikachu" href="#">
+                                        <div class="list-top-movie-item-thumb">
+                                            <img src="images/p-h2.jpg" alt="Pokémon: Thám Tử Pikachu"
+                                                style="width: 100%; height: 100%;" class="lazy">
+                                        </div>
+                                        <div class="list-top-movie-item-info">
+                                            <span class="list-top-movie-item-vn">Pokémon: Thám Tử Pikachu</span>
+                                            <span class="list-top-movie-item-en">Pokémon: Detective Pikachu</span>
+                                            <span class="list-top-movie-item-view">Lượt xem: 0</span>
+                                            <span class="none1"></span><span class="none1"></span>
+                                            <span class="none1"></span><span class="none1"> </span>
+                                            <span class="none1"></span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="list-top-movie-item">
+                                    <a class="list-top-movie-link" title="Chú Voi Biết Bay-Dumbo" href="#">
+                                        <div class="list-top-movie-item-thumb">
+                                            <img src="images/p-h3.jpg" alt="Chú Voi Biết Bay-Dumbo"
+                                                style="width: 100%; height: 100%;" class="lazy">
+                                        </div>
+                                        <div class="list-top-movie-item-info">
+                                            <span class="list-top-movie-item-vn">Chú Voi Biết Bay</span>
+                                            <span class="list-top-movie-item-en">Dumbo</span>
+                                            <span class="list-top-movie-item-view">Lượt xem: 0</span>
+                                            <span class="none1"></span><span class="none1"></span>
+                                            <span class="none1"></span><span class="none1"> </span>
+                                            <span class="none1"></span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="list-top-movie-item">
+                                    <a class="list-top-movie-link" title="Xin Chào, Quý Ông Tỷ Phú" href="#">
+                                        <div class="list-top-movie-item-thumb">
+                                            <img src="images/p-h4.jpg"
+                                                alt="Xin Chào, Quý Ông Tỷ Phú-Hello Mr. Billionaire"
+                                                style="width: 100%; height: 100%;" class="lazy">
+                                        </div>
+                                        <div class="list-top-movie-item-info">
+                                            <span class="list-top-movie-item-vn">Xin Chào, Quý Ông Tỷ Phú</span>
+                                            <span class="list-top-movie-item-en">Hello Mr. Billionaire</span>
+                                            <span class="list-top-movie-item-view">Lượt xem: 0</span>
+                                            <span class="none1"></span><span class="none1"></span>
+                                            <span class="none1"></span><span class="none1"> </span>
+                                            <span class="none1"></span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="list-top-movie-item">
+                                    <a class="list-top-movie-link" title="Đại Úy Marvel" href="#">
+                                        <div class="list-top-movie-item-thumb">
+                                            <img src="images/p-h5.jpg" alt="Đại Úy Marvel-Captain Marvel"
+                                                style="width: 100%; height: 100%;" class="lazy">
+                                        </div>
+                                        <div class="list-top-movie-item-info">
+                                            <span class="list-top-movie-item-vn">Đại Úy Marvel</span>
+                                            <span class="list-top-movie-item-en">Captain Marvel</span>
+                                            <span class="list-top-movie-item-view">Lượt xem: 0</span>
+                                            <span class="none1"></span><span class="none1"></span>
+                                            <span class="none1"></span><span class="none1"> </span>
+                                            <span class="none1"></span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="list-top-movie-item">
+                                    <a class="list-top-movie-link" title="Bí Kíp Luyện Rồng 3: Vùng Đất Bí Ẩn" href="#">
+                                        <div class="list-top-movie-item-thumb">
+                                            <img src="images/p-h6.jpg"
+                                                alt="Bí Kíp Luyện Rồng 3: Vùng Đất Bí Ẩn-How to Train Your Dragon 3: The Hidden World"
+                                                style="width: 100%; height: 100%;" class="lazy">
+                                        </div>
+                                        <div class="list-top-movie-item-info">
+                                            <span class="list-top-movie-item-vn">Bí Kíp Luyện Rồng 3: Vùng Đất Bí
+                                                Ẩn</span>
+                                            <span class="list-top-movie-item-en">How to Train Your Dragon 3: The Hidden
+                                                World</span>
+                                            <span class="list-top-movie-item-view">Lượt xem: 0</span>
+                                            <span class="none1"></span><span class="none1"></span>
+                                            <span class="none1"></span><span class="none1"> </span>
+                                            <span class="none1"></span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="list-top-movie-item">
+                                    <a class="list-top-movie-link" title="Tần Số Chết" href="#">
+                                        <div class="list-top-movie-item-thumb">
+                                            <img src="images/cr8.jpg" alt="Tần Số Chết-0.0MHz"
+                                                style="width: 100%; height: 100%;" class="lazy">
+                                        </div>
+                                        <div class="list-top-movie-item-info">
+                                            <span class="list-top-movie-item-vn">Tần Số Chết</span>
+                                            <span class="list-top-movie-item-en">0.0MHz</span>
+                                            <span class="list-top-movie-item-view">Lượt xem: 0</span>
+                                            <span class="none1"></span><span class="none1"></span>
+                                            <span class="none1"></span><span class="none1"> </span>
+                                            <span class="none1"></span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="list-top-movie-item">
+                                    <a class="list-top-movie-link" title="Sát Thủ John Wick 3: Chuẩn Bị Chiến Tranh"
+                                        href="#">
+                                        <div class="list-top-movie-item-thumb">
+                                            <img src="images/p-h8.jpg"
+                                                alt="Sát Thủ John Wick 3: Chuẩn Bị Chiến Tranh-John Wick 3: Parabellum"
+                                                style="width: 100%; height: 100%;" class="lazy">
+                                        </div>
+                                        <div class="list-top-movie-item-info">
+                                            <span class="list-top-movie-item-vn">Sát Thủ John Wick 3: Chuẩn Bị Chiến
+                                                Tranh</span>
+                                            <span class="list-top-movie-item-en">John Wick 3: Parabellum</span>
+                                            <span class="list-top-movie-item-view">Lượt xem: 0</span>
+                                            <span class="none1"></span><span class="none1"></span>
+                                            <span class="none1"></span><span class="none1"> </span>
+                                            <span class="none1"></span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="list-top-movie-item">
+                                    <a class="list-top-movie-link" title="Mẹ Ma Than Khóc La Llorona" href="#">
+                                        <div class="list-top-movie-item-thumb">
+                                            <img src="images/p-h9.jpg"
+                                                alt="Mẹ Ma Than Khóc La Llorona-The Curse of La Llorona"
+                                                style="width: 100%; height: 100%;" class="lazy">
+                                        </div>
+                                        <div class="list-top-movie-item-info">
+                                            <span class="list-top-movie-item-vn">Mẹ Ma Than Khóc La Llorona</span>
+                                            <span class="list-top-movie-item-en">The Curse of La Llorona</span>
+                                            <span class="list-top-movie-item-view">Lượt xem: 0</span>
+                                            <span class="none1"></span><span class="none1"></span>
+                                            <span class="none1"></span><span class="none1"> </span>
+                                            <span class="none1"></span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="list-top-movie-item">
+                                    <a class="list-top-movie-link" title="Người Vô Hình" href="#">
+                                        <div class="list-top-movie-item-thumb">
+                                            <img src="images/p-h10.jpg" alt="Người Vô Hình-Hollow Man"
+                                                style="width: 100%; height: 100%;" class="lazy">
+                                        </div>
+                                        <div class="list-top-movie-item-info">
+                                            <span class="list-top-movie-item-vn">Người Vô Hình</span>
+                                            <span class="list-top-movie-item-en">Hollow Man</span>
+                                            <span class="list-top-movie-item-view">Lượt xem: 0</span>
+                                            <span class="none1"></span><span class="none1"></span>
+                                            <span class="none1"></span><span class="none1"> </span>
+                                            <span class="none1"></span>
+                                        </div>
+                                    </a>
+                                </li>
+
+
+                            </ul>
+
+                        </div>
+                    </div>
+
+                    <div class="right-box top-film-week " style='margin-top:60px'>
+                        <h2 class="right-box-header star-icon">
+                            <span> <i class="fa fa-star"
+                                    style='font-size: 30px;padding-left:12px;padding-right: 8px;'></i>Phim bộ hot trong
+                                tuần</span>
+                        </h2>
+                        <div class="right-box-content">
+
+                            <ul class="list-top-movie" id="list-top-film-week"
+                                style="overflow-x: hidden; overflow-y: auto; width: auto; height: 477px;">
+
+                                <li class="list-top-movie-item">
+                                    <a class="list-top-movie-link" title="Thánh Phồng Tôm (Phần 2)" href="#">
+                                        <div class="list-top-movie-item-thumb">
+                                            <img src="images/p-b1.jpg"
+                                                alt="Thánh Phồng Tôm (Phần 2)-One Punch Man (Season 2)"
+                                                style="width: 100%; height: 100%;" class="lazy">
+                                        </div>
+                                        <div class="list-top-movie-item-info">
+                                            <span class="list-top-movie-item-vn">Thánh Phồng Tôm (Phần 2)</span>
+                                            <span class="list-top-movie-item-en">One Punch Man (Season 2)</span>
+                                            <span class="list-top-movie-item-view">Lượt xem: 0</span>
+                                            <span class="none1"></span>
+                                            <span class="none1"></span>
+                                            <span class="none1"></span>
+                                            <span class="none1"> </span>
+                                            <span class="none1"></span>
+                                        </div>
+                                    </a>
+                                </li>
+
+                                <li class="list-top-movie-item">
+                                    <a class="list-top-movie-link" title="Abyss Viên Đá Bí Ẩn" href="#">
+                                        <div class="list-top-movie-item-thumb">
+                                            <img src="images/p-b2.jpg" alt="Abyss Viên Đá Bí Ẩn-Abyss"
+                                                style="width: 100%; height: 100%;" class="lazy">
+                                        </div>
+                                        <div class="list-top-movie-item-info">
+                                            <span class="list-top-movie-item-vn">Abyss Viên Đá Bí Ẩn</span>
+                                            <span class="list-top-movie-item-en">Abyss</span>
+                                            <span class="list-top-movie-item-view">Lượt xem: 0</span>
+                                            <span class="none1"></span><span class="none1"></span>
+                                            <span class="none1"></span><span class="none1"> </span>
+                                            <span class="none1"></span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="list-top-movie-item">
+                                    <a class="list-top-movie-link" title="Đạo Mộ Bút Ký 2: Nộ Hải Tiềm Sa" href="#">
+                                        <div class="list-top-movie-item-thumb">
+                                            <img src="images/p-b3.jpg"
+                                                alt="Đạo Mộ Bút Ký 2: Nộ Hải Tiềm Sa-The Lost Tomb 2: The Wrath of The Sea"
+                                                style="width: 100%; height: 100%;" class="lazy">
+                                        </div>
+                                        <div class="list-top-movie-item-info">
+                                            <span class="list-top-movie-item-vn">Đạo Mộ Bút Ký 2: Nộ Hải Tiềm Sa</span>
+                                            <span class="list-top-movie-item-en">The Lost Tomb 2: The Wrath of The
+                                                Sea</span>
+                                            <span class="list-top-movie-item-view">Lượt xem: 0</span>
+                                            <span class="none1"></span><span class="none1"></span>
+                                            <span class="none1"></span><span class="none1"> </span>
+                                            <span class="none1"></span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="list-top-movie-item">
+                                    <a class="list-top-movie-link" title="Cùng Em Đi Đến Tận Cùng Thế Giới" href="#">
+                                        <div class="list-top-movie-item-thumb">
+                                            <img src="images/p-b4.jpg"
+                                                alt="Cùng Em Đi Đến Tận Cùng Thế Giới-Gank Your Heart"
+                                                style="width: 100%; height: 100%;" class="lazy">
+                                        </div>
+                                        <div class="list-top-movie-item-info">
+                                            <span class="list-top-movie-item-vn">Cùng Em Đi Đến Tận Cùng Thế Giới</span>
+                                            <span class="list-top-movie-item-en">Gank Your Heart</span>
+                                            <span class="list-top-movie-item-view">Lượt xem: 0</span>
+                                            <span class="none1"></span><span class="none1"></span>
+                                            <span class="none1"></span><span class="none1"> </span>
+                                            <span class="none1"></span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="list-top-movie-item">
+                                    <a class="list-top-movie-link" title="Đi Tìm 48 Phần Cơ Thể" href="#">
+                                        <div class="list-top-movie-item-thumb">
+                                            <img src="images/p-b5.jpg" alt="Đi Tìm 48 Phần Cơ Thể-Dororo"
+                                                style="width: 100%; height: 100%;" class="lazy">
+                                        </div>
+                                        <div class="list-top-movie-item-info">
+                                            <span class="list-top-movie-item-vn">Đi Tìm 48 Phần Cơ Thể</span>
+                                            <span class="list-top-movie-item-en">Dororo</span>
+                                            <span class="list-top-movie-item-view">Lượt xem: 0</span>
+                                            <span class="none1"></span><span class="none1"></span>
+                                            <span class="none1"></span><span class="none1"> </span>
+                                            <span class="none1"></span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="list-top-movie-item">
+                                    <a class="list-top-movie-link" title="Niên sử ký Arthdal" href="#">
+                                        <div class="list-top-movie-item-thumb">
+                                            <img src="images/p-b6.jpg" alt="Niên sử ký Arthdal-Arthdal Chronicles"
+                                                style="width: 100%; height: 100%;" class="lazy">
+                                        </div>
+                                        <div class="list-top-movie-item-info">
+                                            <span class="list-top-movie-item-vn">Niên sử ký Arthdal</span>
+                                            <span class="list-top-movie-item-en">Arthdal Chronicles</span>
+                                            <span class="list-top-movie-item-view">Lượt xem: 0</span>
+                                            <span class="none1"></span><span class="none1"></span>
+                                            <span class="none1"></span><span class="none1"> </span>
+                                            <span class="none1"></span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="list-top-movie-item">
+                                    <a class="list-top-movie-link" title="Lớp Trưởng Điện Hạ" href="#">
+                                        <div class="list-top-movie-item-thumb">
+                                            <img src="images/p-b7.jpg"
+                                                alt="Lớp Trưởng Điện Hạ-“Your Highness” Class Monitor"
+                                                style="width: 100%; height: 100%;" class="lazy">
+                                        </div>
+                                        <div class="list-top-movie-item-info">
+                                            <span class="list-top-movie-item-vn">Lớp Trưởng Điện Hạ</span>
+                                            <span class="list-top-movie-item-en">“Your Highness” Class Monitor</span>
+                                            <span class="list-top-movie-item-view">Lượt xem: 0</span>
+                                            <span class="none1"></span><span class="none1"></span>
+                                            <span class="none1"></span><span class="none1"> </span>
+                                            <span class="none1"></span>
+                                        </div>
+                                    </a>
+                                </li>
+
+
+                                <li class="list-top-movie-item">
+                                    <a class="list-top-movie-link" title="Sự Trỗi Dậy Của Khiên Hiệp Sĩ" href="#">
+                                        <div class="list-top-movie-item-thumb">
+                                            <img src="images/p-b8.jpg"
+                                                alt="Sự Trỗi Dậy Của Khiên Hiệp Sĩ-The Rising Of The Shield Hero"
+                                                style="width: 100%; height: 100%;" class="lazy">
+                                        </div>
+                                        <div class="list-top-movie-item-info">
+                                            <span class="list-top-movie-item-vn">Sự Trỗi Dậy Của Khiên Hiệp Sĩ</span>
+                                            <span class="list-top-movie-item-en">The Rising Of The Shield Hero</span>
+                                            <span class="list-top-movie-item-view">Lượt xem: 0</span>
+                                            <span class="none1"></span><span class="none1"></span>
+                                            <span class="none1"></span><span class="none1"> </span>
+                                            <span class="none1"></span>
+                                        </div>
+                                    </a>
+                                </li>
+
+                                <li class="list-top-movie-item">
+                                    <a class="list-top-movie-link" title="Bảy Viên Ngọc Rồng" href="#">
+                                        <div class="list-top-movie-item-thumb">
+                                            <img src="images/p-b9.jpg" alt="Bảy Viên Ngọc Rồng-Dragon Ball"
+                                                style="width: 100%; height: 100%;" class="lazy">
+                                        </div>
+                                        <div class="list-top-movie-item-info">
+                                            <span class="list-top-movie-item-vn">Bảy Viên Ngọc Rồng</span>
+                                            <span class="list-top-movie-item-en">Dragon Ball</span>
+                                            <span class="list-top-movie-item-view">Lượt xem: 0</span>
+                                            <span class="none1"></span><span class="none1"></span>
+                                            <span class="none1"></span><span class="none1"> </span>
+                                            <span class="none1"></span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="list-top-movie-item">
+                                    <a class="list-top-movie-link" title="Bảy Viên Ngọc Rồng: Hành Tinh Ngục Tù"
+                                        href="#">
+                                        <div class="list-top-movie-item-thumb">
+                                            <img src="images/p-b10.jpg"
+                                                alt="Bảy Viên Ngọc Rồng: Hành Tinh Ngục Tù-Super Dragon Ball Heroes"
+                                                style="width: 100%; height: 100%;" class="lazy">
+                                        </div>
+                                        <div class="list-top-movie-item-info">
+                                            <span class="list-top-movie-item-vn">Bảy Viên Ngọc Rồng: Hành Tinh Ngục
+                                                Tù</span>
+                                            <span class="list-top-movie-item-en">Super Dragon Ball Heroes</span>
+                                            <span class="list-top-movie-item-view">Lượt xem: 0</span>
+                                            <span class="none1"></span><span class="none1"></span>
+                                            <span class="none1"></span><span class="none1"> </span>
+                                            <span class="none1"></span>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                    <div class='margin-top' style='margin-top: 50px'></div>
+                    <div class='right-box'>
+                        <h2 class="right-box-header tag-icon">
+                            <span style='font-size: 25px;'> <i class="fa fa-star"
+                                    style='font-size: 30px;padding-left:12px;padding-right: 8px;'></i>Từ khóa nổi
+                                bật</span>
+                        </h2>
+                        <ul class="right-box-content tag-box">
+
+                            <li class="tag-item"><a class="tag-link" title="tội phạm" href="tags/tội+phạm/">tội
+                                    phạm</a><span class="tag-end">&nbsp;</span></li>
+
+                            <li class="tag-item"><a class="tag-link" title="tình yêu" href="tags/tình+yêu/">tình
+                                    yêu</a><span class="tag-end">&nbsp;</span></li>
+
+                            <li class="tag-item"><a class="tag-link" title="phim ma" href="tags/phim+ma/">phim
+                                    ma</a><span class="tag-end">&nbsp;</span></li>
+
+                            <li class="tag-item"><a class="tag-link" title="marvel" href="tags/marvel/">marvel</a><span
+                                    class="tag-end">&nbsp;</span></li>
+
+                            <li class="tag-item"><a class="tag-link" title="cảnh sát" href="tags/cảnh+sát/">cảnh
+                                    sát</a><span class="tag-end">&nbsp;</span></li>
+
+                            <li class="tag-item"><a class="tag-link" title="ma cà rồng" href="tags/ma+cà+rồng/">ma cà
+                                    rồng</a><span class="tag-end">&nbsp;</span></li>
+
+                            <li class="tag-item"><a class="tag-link" title="xác sống" href="tags/xác+sống/">xác
+                                    sống</a><span class="tag-end">&nbsp;</span></li>
+
+                            <li class="tag-item"><a class="tag-link" title="zombie" href="tags/zombie/">zombie</a><span
+                                    class="tag-end">&nbsp;</span></li>
+
+                            <li class="tag-item"><a class="tag-link" title="kdrama" href="tags/kdrama/">kdrama</a><span
+                                    class="tag-end">&nbsp;</span></li>
+
+                            <li class="tag-item"><a class="tag-link" title="người ngoài hành tinh"
+                                    href="tags/người+ngoài+hành+tinh/">người ngoài hành tinh</a><span
+                                    class="tag-end">&nbsp;</span></li>
+
+                            <li class="tag-item"><a class="tag-link" title="siêu anh hùng"
+                                    href="tags/siêu+anh+hùng/">siêu anh hùng</a><span class="tag-end">&nbsp;</span></li>
+
+                            <li class="tag-item"><a class="tag-link" title="siêu nhân" href="tags/siêu+nhân/">siêu
+                                    nhân</a><span class="tag-end">&nbsp;</span></li>
+
+                            <li class="tag-item"><a class="tag-link" title="phim viễn tưởng hay"
+                                    href="tags/phim+viễn+tưởng+hay/">phim viễn tưởng hay</a><span
+                                    class="tag-end">&nbsp;</span></li>
+
+                            <li class="tag-item"><a class="tag-link" title="quái vật" href="tags/quái+vật/">quái
+                                    vật</a><span class="tag-end">&nbsp;</span></li>
+
+                            <li class="tag-item"><a class="tag-link" title="tận thế" href="tags/tận+thế/">tận
+                                    thế</a><span class="tag-end">&nbsp;</span></li>
+
+                            <li class="tag-item"><a class="tag-link" title="sát thủ" href="tags/sát+thủ/">sát
+                                    thủ</a><span class="tag-end">&nbsp;</span></li>
+
+                            <li class="tag-item"><a class="tag-link" title="người máy" href="tags/người+máy/">người
+                                    máy</a><span class="tag-end">&nbsp;</span></li>
+
+                            <li class="tag-item"><a class="tag-link" title="phim viễn tưởng chọn lọc"
+                                    href="tags/phim+viễn+tưởng+chọn+lọc/">phim viễn tưởng chọn lọc</a><span
+                                    class="tag-end">&nbsp;</span></li>
+
+                            <li class="tag-item"><a class="tag-link" title="thảm họa" href="tags/thảm+họa/">thảm
+                                    họa</a><span class="tag-end">&nbsp;</span></li>
+
+                            <li class="tag-item"><a class="tag-link" title="phù thủy" href="tags/phù+thủy/">phù
+                                    thủy</a><span class="tag-end">&nbsp;</span></li>
+
+                            <li class="tag-item"><a class="tag-link" title="châu tinh trì"
+                                    href="tags/châu+tinh+trì/">châu tinh trì</a><span class="tag-end">&nbsp;</span></li>
+
+                            <li class="tag-item"><a class="tag-link" title="thây ma" href="tags/thây+ma/">thây
+                                    ma</a><span class="tag-end">&nbsp;</span></li>
+
+                            <li class="tag-item"><a class="tag-link" title="thám tử" href="tags/thám+tử/">thám
+                                    tử</a><span class="tag-end">&nbsp;</span></li>
+
+                            <li class="tag-item"><a class="tag-link" title="xã hội đen" href="tags/xã+hội+đen/">xã hội
+                                    đen</a><span class="tag-end">&nbsp;</span></li>
+
+                            <li class="tag-item"><a class="tag-link" title="robot" href="tags/robot/">robot</a><span
+                                    class="tag-end">&nbsp;</span></li>
+
+                            <li class="tag-item"><a class="tag-link" title="điệp viên" href="tags/điệp+viên/">điệp
+                                    viên</a><span class="tag-end">&nbsp;</span></li>
+
+                            <li class="tag-item"><a class="tag-link" title="khủng bố" href="tags/khủng+bố/">khủng
+                                    bố</a><span class="tag-end">&nbsp;</span></li>
+
+                            <li class="tag-item"><a class="tag-link" title="giết người" href="tags/giết+người/">giết
+                                    người</a><span class="tag-end">&nbsp;</span></li>
+
+                            <li class="tag-item"><a class="tag-link" title="trinh thám" href="tags/trinh+thám/">trinh
+                                    thám</a><span class="tag-end">&nbsp;</span></li>
+
+                            <li class="tag-item"><a class="tag-link" title="báo thù" href="tags/báo+thù/">báo
+                                    thù</a><span class="tag-end">&nbsp;</span></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </wrapper>
+    <div class='margin-top' style="margin-top: 25px"></div>
+    <footer style='border-top:3px solid #ff3300;'>
+        <div class='container'>
+            <div class='row'>
+                <div class='col-md-3 col-sm-3 col-xs-12'>
+                    <a href='#'><img src='images/logo.png' /></a>
+                </div>
+                <div class='col-md-2 col-sm-2 col-xs-6'>
+                    <div class='ft-film'>
+                        <h3>Phim Mới</h3>
+                        <ul>
+                            <li><a href='#'> Phim lẻ Mới </a></li>
+                            <li><a href='#'> Phim Bộ Mới </a></li>
+                            <li><a href='#'> Phim Mới </a></li>
+                            <li><a href='#'> Phim Hành Động </a></li>
+                            <li><a href='#'> Phim Kinh Dị </a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class='col-md-2 col-sm-2 col-xs-6'>
+                    <div class='ft-film'>
+                        <h3>Phim Lẻ</h3>
+                        <ul>
+                            <li><a href='#'> Phim Hành Động </a></li>
+                            <li><a href='#'> Phim Kiếm Hiệp </a></li>
+                            <li><a href='#'> Phim Kinh Dị </a></li>
+                            <li><a href='#'> Phim Viễn Tưởng </a></li>
+                            <li><a href='#'> Phim Hoạt Hình </a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class='col-md-2 col-sm-2 col-xs-6'>
+                    <div class='ft-film'>
+                        <h3>Phim Quốc Gia</h3>
+                        <ul>
+                            <li><a href='#'> Phim Bộ Hàn Quốc </a></li>
+                            <li><a href='#'> Phim Bộ Trung Quốc </a></li>
+                            <li><a href='#'> Phim Bộ Mỹ </a></li>
+                            <li><a href='#'> Phim Bộ Việt Nam </a></li>
+                            <li><a href='#'> Phim Bộ Hồng Kông </a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class='col-md-3 col-sm-3 col-xs-6'>
+                    <div class='ft-qc' style='margin-top: 25px;'>
+                        <span> Tuyển Quản Trị Viên: </span>
+                        <p>
+                            Email: no1.ily1606@gmail.com </br>
+                            Facebook: https://facebook.com/Ily1606
+                        </p>
+                    </div>
+                </div>
+                <a href="http://www.dmca.com/Protection/Status.aspx?ID=5a2d60ea-3845-4564-8ea7-808c4a4428e3&amp;refurl=http://khophimhot.ml/"
+                    title="DMCA.com Protection Status" class="dmca-badge"> <img
+                        src="https://images.dmca.com/Badges/dmca_protected_sml_120aj.png?ID=5a2d60ea-3845-4564-8ea7-808c4a4428e3"
+                        alt="DMCA.com Protection Status"></a>
+
+            </div>
+        </div>
+    </footer>
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="libs/bootstrap/js/bootstrap.min.js"></script>
+    <script src="libs/OwlCarousel2-2.3.4/owl.carousel.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
